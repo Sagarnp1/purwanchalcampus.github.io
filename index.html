@@ -1,0 +1,52 @@
+<!doctypehtml>
+<html>
+<head>
+    <!--linked to the varios files-->
+    <meta name = "viewport" content="with = device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,500&display=swap" rel="stylesheet">
+<title> Purwanchal Campus</title>
+</head>
+<body>
+
+    <section class="header">
+    <nav>
+        <a href="index.html" > <img src ="images/banners.png" ></a>
+        <div class="nav-links" id="julio">
+            <i class="fa fa-window-close" onclick="closedon()" ></i>
+            <ul>
+                <li> <a href = "">Home </a></li>
+                <li> <a href = "">ABOUT </a></li> 
+                <li> <a href = "">Courses </a></li> 
+                <li> <a href = "">BLOG </a></li> 
+                <li> <a href = "">CONTACT </a></li> 
+
+
+
+
+
+
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showdon()"></i>
+    </nav>
+    <div class="text-box">
+        <h1> Nepal's Best Enigneering College</h1>
+        <p> Nepal's One of the best Enigneering colleges afiiliated to TU(IOE).
+             This college offers various programs. <br> Click on the link below to know more!!</p>
+        <a href="" class="don"> Visit Now </a>     
+    </div>
+
+
+    </section>
+    <script>
+        var julio = document.getElementById("julio");
+        function showdon(){
+            julio.style.right = "0";
+        }
+        function closedon(){
+            julio.style.right = "-200px";        }
+    </script>
+</body>
+</html>
